@@ -9,6 +9,7 @@ texture : "https://sample.com/sample.jpg"
 texture : "./sample.jpg"
 ```
 
+{% code title="texture.oml" %}
 ```text
 export default {
     component : "@cube",
@@ -16,10 +17,20 @@ export default {
     // cubeの全６面に同じ画像が適用される
 }
 ```
+{% endcode %}
 
-対応している画像の拡張子は以下の通りです。
+対応しているテクスチャ画像の拡張子は以下の通りです。
 
-|  |  |
-| :--- | :--- |
-|  |  |
+|  |  |  |
+| :---: | :---: | :---: |
+| .bmp | .exr | .gif |
+| .hdr | .iff | .jpg |
+| .pict | .png | .psd |
+| .tga | .tiff |  |
+
+
+
+## 
+
+![https://github.com/oml-3d/document-jp/properties/texture.md](../.gitbook/assets/github-mark-32px.png)
 

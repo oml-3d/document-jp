@@ -2,6 +2,7 @@
 
 １秒間に約60回呼ばれるイベントです。
 
+{% code title="move.oml" %}
 ```text
 export default {
     component : "@cube",
@@ -12,4 +13,9 @@ export default {
     }
 }
 ```
+{% endcode %}
+
+## 
+
+![https://github.com/oml-3d/document-jp/methods/onupdate.md](../.gitbook/assets/github-mark-32px.png)
 

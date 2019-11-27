@@ -62,6 +62,12 @@ export default {
 
 {% page-ref page="../properties/scale.md" %}
 
+{% page-ref page="../properties/color.md" %}
+
+{% page-ref page="../properties/texture.md" %}
+
+{% page-ref page="../properties/sound.md" %}
+
 ## 
 
 ![https://github.com/oml-3d/document-jp/components/group.md](../.gitbook/assets/github-mark-32px.png)

@@ -33,11 +33,33 @@ component : "@image(https://sample.com/sample.jpg)"
 component : "@video(./sample.mp4)"
 ```
 
+{% code title="image.oml" %}
+```text
+export default {
+    component : "@image(https://sample.com/sample.jpg)"
+}
+```
+{% endcode %}
+
 {% hint style="info" %}
 OML ver 0.2.1 betaでは 映像ファイル操作プロパティは定義されていません。映像データはループ再生されます。
 {% endhint %}
 
 対応している画像ファイル及び映像ファイルの拡張子は以下の通りです。
+
+| 画像 | 映像 |
+| :---: | :---: |
+| .jpg | .dv |
+| .png | .m4v |
+| .tga | .mov |
+| .bmp | .mp4 |
+| .psd | .mpg |
+| .gif | .mpeg |
+| .hdr | .ogv |
+| .pic | .vp8 |
+| .pnm | .webm |
+
+
 
 ## Text
 
@@ -49,27 +71,37 @@ Textコンポーネントではユーザーが指定する任意の文字列を�
 OML ver 0.2.1 betaでは、フォント指定プロパティ及び操作プロパティが定義されていません。デフォルトフォントは[Noto Sans](https://www.google.com/get/noto/) Regularで、中央揃えで表示されます。
 {% endhint %}
 
+{% code title="text.oml" %}
 ```text
 export default {
     component : "@text(サンプルテキストです。)"
 }
 ```
+{% endcode %}
 
 rotationが宣言されていない場合、textはxz面に対して垂直に表示されます。
 
 なお、`\n`で改行することができます。
 
+{% code title="indention.oml" %}
 ```text
 export default {
     component : "@text(これは\nサンプルテキストです。)"
 }
 ```
+{% endcode %}
 
 
 
 グループ化やプロパティを適用することで様々な設定をすることができます。詳細は下記のリンク先をご参照ください。
 
+{% page-ref page="group.md" %}
+
 {% page-ref page="../properties/position.md" %}
+
+{% page-ref page="../properties/rotation.md" %}
+
+{% page-ref page="../properties/scale.md" %}
 
 {% page-ref page="../properties/color.md" %}
 

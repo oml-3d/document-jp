@@ -4,9 +4,8 @@
 
 イベントが発火したオブジェクトを含めて、その親をたどるように他のオブジェクトに関してイベントが発火します。 
 
-例\) 以下の親子構造があるとする。 
+以下の親子構造があるとする場合、EEEでonClickによるイベントが感知されると`EEE,CCC,BBB,AAA`が含む全てのonClickイベントが発火され、 `DDD`でイベントが感知されると`DDD,BBB,AAA`が含む全てのonClickイベントが発火されます。
 
-{% code title="sample" %}
 ```text
 AAA
  └BBB
@@ -14,9 +13,6 @@ AAA
      └EEE
    └DDD
 ```
-{% endcode %}
-
-EEEでonClickによるイベントが感知されると`EEE,CCC,BBB,AAA`が含む全てのonClickイベントが発火され、 `DDD`でイベントが感知されると`DDD,BBB,AAA`が含む全てのonClickイベントが発火されます。
 
 {% code title="change\_color.oml" %}
 ```text
@@ -31,5 +27,7 @@ export default {
 ```
 {% endcode %}
 
+## 
 
+![https://github.com/oml-3d/document-jp/methods/onclick.md](../.gitbook/assets/github-mark-32px.png)
 
