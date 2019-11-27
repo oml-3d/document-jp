@@ -11,7 +11,7 @@
 
 ## 特殊な型 <a id="type"></a>
 
-* [Vector型](type/vector-xing.md)
+* [Vector型](type/vector.md)
 
 ## プロパティ <a id="properties"></a>
 

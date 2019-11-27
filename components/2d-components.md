@@ -77,7 +77,7 @@ export default {
 
 {% page-ref page="../properties/sound.md" %}
 
+## 
 
-
-
+![https://github.com/oml-3d/document-jp/components/2d-components.md](../.gitbook/assets/github-mark-32px.png)
 

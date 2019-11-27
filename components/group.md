@@ -56,7 +56,13 @@ export default {
 ```
 {% endcode %}
 
+{% page-ref page="../properties/position.md" %}
 
+{% page-ref page="../properties/rotation.md" %}
 
+{% page-ref page="../properties/scale.md" %}
 
+## 
+
+![https://github.com/oml-3d/document-jp/components/group.md](../.gitbook/assets/github-mark-32px.png)
 
