@@ -40,15 +40,15 @@ OMLは他の3Dコンテンツの開発言語と比べ、可読性を最も重視
 
 OMLの基本的な構造は以下の basic.oml のような形で表記されます。
 
-{% code title="sample.oml" %}
+{% code title="basic.oml" %}
 ```text
 export default {
-    title : "sample",
+    title : "sample"
 }
 ```
 {% endcode %}
 
-なお、`title`が宣言されていない場合、自動的に`untitled`が代入されます。
+なお、`title`が宣言されていない場合、自動的に`Untitled`が代入されます。
 
 ## エスケープ
 

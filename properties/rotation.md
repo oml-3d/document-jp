@@ -19,20 +19,20 @@ rotation : [90, 90, 90]
 {% code title="rotation.oml" %}
 ```text
 export default {
-    component : "@cube";
-        // 配列で表記する場合、配列の長さは3でなくてはいけない
-        // ex) rotation : [90,90]   -> x
-        //     rotation : [90,90,90] -> o
-        rotation : [90,90,90];
-        rotation : {
-            x : 90, // x軸を中心にした回転を設定する
-            y : 90, // y軸を中心にした回転を設定する
-            z : 90  // z軸を中心にした回転を設定する
-            // オブジェクトで表記する場合, xyzはそれぞれ省略できる
-            // ex) rotation : { x : 90, y : 90 }
-        }
-        position : [1,1,1];
-        scale : [1,0.5,2];
+    component : "@cube",
+    // 配列で表記する場合、配列の長さは3でなくてはいけない
+    // ex) rotation : [90,90]   -> x
+    //     rotation : [90,90,90] -> o
+    rotation : [90,90,90],
+    rotation : {
+        x : 90, // x軸を中心にした回転(度)を設定する
+        y : 90, // y軸を中心にした回転(度)を設定する
+        z : 90  // z軸を中心にした回転(度)を設定する
+        // オブジェクトで表記する場合, xyzはそれぞれ省略できる
+        // ex) rotation : { x : 90, y : 90 }
+    },
+    position : [1,1,1],
+    scale : [1,0.5,2]
 }
 ```
 {% endcode %}

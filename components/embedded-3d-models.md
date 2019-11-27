@@ -6,23 +6,16 @@
 
 ```text
 component : "@model(https://sample.com/sample.fbx)"
-component : "@model(../sample.fbx)"
+component : "@model(./sample.fbx)"
 ```
 
 対応している3Dモデルの拡張子は以下の通りです。
 
-* dae
-* abc
-* stl
-* glTF2.0
-* fbx
-* obj
-* x3d
-* その他
-
 |  |  |  |
 | :---: | :---: | :---: |
-| dae | abc | stl |
+| dae | bvh | stl |
+| glTF2.0 | fbx | obj |
+| x3d |  |  |
 
 グループ化やプロパティを適用することで様々な設定をすることができます。詳細は下記のリンク先をご参照ください。
 
