@@ -12,7 +12,3 @@ OMLは左手系の座標軸を採用しており、奥方向にz軸,上方向に
 
 {% page-ref page="../properties/scale.md" %}
 
-## 
-
-![https://github.com/oml-3d/document-jp/type/vector.md](../.gitbook/assets/github-mark-32px.png)
-

@@ -31,7 +31,3 @@ export default {
 ```
 {% endcode %}
 
-## 
-
-![https://github.com/oml-3d/document-jp/properties/position.md](../.gitbook/assets/github-mark-32px.png)
-

@@ -46,9 +46,3 @@ export default {
 | .aiff / .aif | .mod | .it |
 | .s3m | .xm |  |
 
-
-
-## 
-
-![https://github.com/oml-3d/document-jp/properties/sound.md](../.gitbook/assets/github-mark-32px.png)
-

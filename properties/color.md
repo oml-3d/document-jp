@@ -26,7 +26,3 @@ export default {
 ユーザーの用意した任意のモデルなど、テクスチャとしてすでに色情報を保持しているものはcolorで指定された色が乗算して描画されます。
 {% endhint %}
 
-## 
-
-![https://github.com/oml-3d/document-jp/properties/color.md](../.gitbook/assets/github-mark-32px.png)
-

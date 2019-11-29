@@ -54,7 +54,3 @@ export default {
 
 OMLでは`//`（スラッシュ）二つでコメントアウトをすることができます。
 
-## 
-
-![https://github.com/oml-3d/document-jp](.gitbook/assets/github-mark-32px.png)
-

@@ -28,9 +28,3 @@ export default {
 | .pict | .png | .psd |
 | .tga | .tiff |  |
 
-
-
-## 
-
-![https://github.com/oml-3d/document-jp/properties/texture.md](../.gitbook/assets/github-mark-32px.png)
-

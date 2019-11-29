@@ -15,7 +15,3 @@ export default {
 ```
 {% endcode %}
 
-## 
-
-![https://github.com/oml-3d/document-jp/methods/onupdate.md](../.gitbook/assets/github-mark-32px.png)
-

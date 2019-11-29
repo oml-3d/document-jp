@@ -56,7 +56,3 @@ export default {
 
 {% page-ref page="../properties/sound.md" %}
 
-## 
-
-![https://github.com/oml-3d/document-jp/components/embedded-3d-models.md](../.gitbook/assets/github-mark-32px.png)
-
